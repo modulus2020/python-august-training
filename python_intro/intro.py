@@ -57,6 +57,13 @@ converts them to integers, and prints their:
 (a) sum.
 (b) difference.
 (c) product.
+(d) quotient.
+
 4. Write a program that takes a string input from the user,
 converts it to uppercase, and prints the result.
 """
+
+first_number = int(input("Enter the first number: "))
+secnd_number = int(input("Enter the second number: "))
+sum = first_number + secnd_number
+print(sum)
